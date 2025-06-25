@@ -1,9 +1,11 @@
-void ft_print_numbers(void);
+void ft_is_negative(int n);
 
 int main(void)
 {
 	
-	ft_print_numbers();
+	ft_is_negative(1337);
+	ft_is_negative(0);
+	ft_is_negative(-1);
 	return 0;
 
 }
