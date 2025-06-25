@@ -1,9 +1,9 @@
-void ft_putchar(char c);
+void ft_print_alphabet(void);
 
-int main()
+int main(void)
 {
 	
-	ft_putchar('A');
+	ft_print_alphabet();
 	return 0;
 
 }
